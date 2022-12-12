@@ -1,21 +1,21 @@
-# uniques
+# Unique Values
 Simple NPM package to remove duplicate items in array.
 
 # Installation
 ```
-npm i uniques
+npm i unique-values
 ```
 
 ```
-yarn add uniques
+yarn add unique-values
 ```
 
 # Usage
 
 ```js
-var uniquesValues = require("uniques-values")
+var uniqueValues = require("unique-values")
 
-console.log(uniquesValues([1,2,1,1,1,2,3,4,5,3,2,4,5,6]))
+console.log(uniqueValues([1,2,1,1,1,2,3,4,5,3,2,4,5,6]))
 
 // Output -> [1, 2, 3, 4, 5, 6]
 ```
